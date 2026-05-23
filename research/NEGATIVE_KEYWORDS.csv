@@ -1,0 +1,58 @@
+# ==========================================
+# PURPOSE & CONTEXT:
+# Negative keywords prevent our search ads from displaying for irrelevant search queries. Bidding on search terms that have zero purchase intent (like "free workouts") or are completely unrelated to our offer (like "gym jobs") wastes budget.
+# This file catalogs standard negative keyword groups.
+#
+# STEP-BY-STEP INSTRUCTIONS:
+# 1. Create a Shared Negative Keyword List in your Google Ads account named "Fitness Exclusions".
+# 2. Upload these negative keywords to the list.
+# 3. Associate the list with all active search campaigns (Brand, Service, Competitor).
+# 4. Monitor search terms weekly to identify and add new negative variations.
+#
+# COMMON MISTAKES TO AVOID:
+# - Banning brand keywords. Ensure you do not add your own brand name or variations to negative lists applied to the Brand campaign.
+# - Over-blocking. Avoid adding broad match negatives that might accidentally block relevant searches (e.g., adding "coaching" as a negative is a mistake).
+#
+# EXPECTED OUTCOMES & TIMELINES:
+# - Negative list applied at launch (Day 4).
+# - A 20-30% reduction in wasted ad spend within the first month.
+# ==========================================
+Negative Keyword,Match Type,Reason Group
+free,phrase,Low Budget / No Intent
+cheap,phrase,Low Budget / No Intent
+cheapest,phrase,Low Budget / No Intent
+discount,phrase,Low Budget / No Intent
+coupon,phrase,Low Budget / No Intent
+promo,phrase,Low Budget / No Intent
+job,phrase,Employment Seekers
+jobs,phrase,Employment Seekers
+career,phrase,Employment Seekers
+careers,phrase,Employment Seekers
+hiring,phrase,Employment Seekers
+employment,phrase,Employment Seekers
+salary,phrase,Employment Seekers
+certification,phrase,Education / Courses
+certifications,phrase,Education / Courses
+course,phrase,Education / Courses
+degree,phrase,Education / Courses
+school,phrase,Education / Courses
+classes,phrase,Education / Courses
+gym near me,phrase,Local / Physical Gym
+gyms,phrase,Local / Physical Gym
+membership,phrase,Local / Physical Gym
+memberships,phrase,Local / Physical Gym
+physical therapy,phrase,Local / Physical Gym
+youtube,phrase,DIY / Information Seekers
+video,phrase,DIY / Information Seekers
+exercises,phrase,DIY / Information Seekers
+workouts,phrase,DIY / Information Seekers
+download,phrase,DIY / Information Seekers
+pdf,phrase,DIY / Information Seekers
+book,phrase,DIY / Information Seekers
+steroids,phrase,Unrelated Products
+fat burner,phrase,Unrelated Products
+pills,phrase,Unrelated Products
+supplements,phrase,Unrelated Products
+kids,phrase,Demographic Exclusions
+seniors,phrase,Demographic Exclusions
+elderly,phrase,Demographic Exclusions

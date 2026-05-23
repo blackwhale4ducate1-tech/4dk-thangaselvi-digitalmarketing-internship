@@ -1,0 +1,50 @@
+# ==========================================
+# PURPOSE & CONTEXT:
+# This file is the primary keyword database for our Online Fitness Coaching Google Ads PPC search campaign. It defines our targeting strategy, estimated costs, and keyword organization into ad groups.
+#
+# STEP-BY-STEP INSTRUCTIONS:
+# 1. Import this keyword list into your Google Ads Editor or upload directly via the Google Ads online interface.
+# 2. Assign keywords to their respective Campaign and Ad Group designations.
+# 3. Apply the designated match types (Exact or Phrase) to ensure precise budget control.
+# 4. Set initial keyword bids based on the CPC Estimate column.
+#
+# COMMON MISTAKES TO AVOID:
+# - Importing all keywords as Broad match. Double-check that exact matches are wrapped in brackets [keyword] and phrase matches in quotes "keyword" before uploading.
+# - Setting bids too low, which prevents ads from serving during the initial learning phase.
+#
+# EXPECTED OUTCOMES & TIMELINES:
+# - Campaign uploaded in paused status by Day 3.
+# - Ad serving launched on Day 4. Focus on adjusting bids during the first week to maintain average ad position 1-3.
+# ==========================================
+Keyword,Match Type,Avg Monthly Searches,Competition,CPC Estimate,Intent,Ad Group Assignment
+FitLife Coaching,exact,250,Low,1.20,transactional,Brand
+FitLife online fitness coaching,phrase,150,Low,1.50,transactional,Brand
+FitLife personal trainer,exact,100,Low,1.10,transactional,Brand
+CoPilot fitness coaching,phrase,1200,High,3.50,commercial,Competitor
+Future Fit personal training,phrase,800,High,3.80,commercial,Competitor
+Caliber fitness coach,phrase,1500,High,4.00,commercial,Competitor
+Kickoff online coaching,phrase,600,High,3.20,commercial,Competitor
+MyFitnessPal premium coaching,phrase,2400,High,4.50,commercial,Competitor
+online fitness coach,phrase,3600,High,2.80,transactional,Service_General
+hire online fitness coach,exact,480,High,3.50,transactional,Service_General
+best online personal trainer,phrase,2200,High,3.10,transactional,Service_General
+online personal training plans,phrase,1300,High,2.90,transactional,Service_General
+1 on 1 online fitness coach,exact,210,High,3.75,transactional,Service_1on1
+custom online training program,phrase,390,High,3.20,transactional,Service_General
+personal trainer online cost,phrase,720,Medium,2.50,commercial,Service_General
+online diet and fitness coach,phrase,1100,High,2.95,transactional,Service_Nutrition
+online weight loss coach,phrase,2900,High,2.75,transactional,Service_WeightLoss
+online coach for weight loss,exact,320,High,3.10,transactional,Service_WeightLoss
+custom diet coaching online,phrase,450,High,3.40,transactional,Service_Nutrition
+online macro coach,phrase,590,Medium,2.20,transactional,Service_Nutrition
+strength coach online,phrase,880,High,2.80,transactional,Service_Strength
+online powerlifting coach,phrase,600,Medium,2.40,transactional,Service_Strength
+muscle building coach online,phrase,480,High,3.10,transactional,Service_Strength
+online personal trainer for busy professionals,exact,140,High,4.20,transactional,Service_1on1
+professional fitness coach online,phrase,180,High,3.60,transactional,Service_1on1
+online workout accountability partner,phrase,260,Medium,2.10,commercial,Service_1on1
+fitness coaching for men over 40,phrase,390,High,3.30,transactional,Service_Demographic
+online fitness coach for women,phrase,980,High,2.90,transactional,Service_Demographic
+remote personal trainer cost,phrase,580,Medium,2.60,commercial,Service_General
+hire custom diet planner,phrase,210,High,3.15,transactional,Service_Nutrition
+best online workout coach reviews,phrase,450,Medium,2.40,commercial,Service_General
