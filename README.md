@@ -1,160 +1,426 @@
-# Online Fitness Coaching Google Ads PPC Campaign Strategy & Playbook
+# 🎯 Google Ads PPC Campaign Strategy & Playbook
 
-Welcome to the **Online Fitness Coaching Google Ads PPC Campaign Strategy Repository**. This repository contains a structured, end-to-end framework for launching, managing, and optimizing paid search campaigns to acquire high-ticket 1-on-1 online fitness coaching clients. 
+<div align="center">
 
-This plan is tailored for a subscription-based coaching business model priced at **$150 to $300/month** (Customer Lifetime Value: ~$1,200), focusing on busy professionals who value customized training programs and nutrition guides.
+![Google Ads](https://img.shields.io/badge/Google_Ads-PPC-4285F4?style=for-the-badge&logo=google-ads&logoColor=white)
+![Google Analytics 4](https://img.shields.io/badge/GA4-Analytics-orange?style=for-the-badge&logo=google-analytics&logoColor=white)
+![Google Tag Manager](https://img.shields.io/badge/GTM-Tracking-2496ED?style=for-the-badge&logo=google-tag-manager&logoColor=white)
+![Target CPA](https://img.shields.io/badge/Bidding-Smart_Bidding-34A853?style=for-the-badge&logo=google&logoColor=white)
 
----
+**A comprehensive, production-grade Google Ads PPC Campaign Playbook for a high-ticket 1-on-1 Online Fitness Coaching business. Includes keyword lists, ad group copies, bidding transition schedules, landing page wireframes, and weekly performance reporting templates.**
 
-## 📖 Table of Contents
-1. [Purpose & Business Goals](#-purpose--business-goals)
-2. [Campaign Overview & Budget Allocation](#-campaign-overview--budget-allocation)
-3. [Target PPC Metrics (KPIs)](#-target-ppc-metrics-kpis)
-4. [Repository Directory Structure](#-repository-directory-structure)
-5. [Team Ownership Matrix (RACI)](#-team-ownership-matrix-raci)
-6. [Campaign Setup & How to Deploy](#-campaign-setup--how-to-deploy)
-7. [Common Execution Mistakes to Avoid](#-common-execution-mistakes-to-avoid)
-8. [Expected Outcomes & Optimization Timeline](#-expected-outcomes--optimization-timeline)
+[Overview](#1-campaign-overview) • [Structure](#3-campaign-architecture--hierarchy) • [Ad Copy](#5-responsive-search-ads-rsa-copywriting) • [Tracking](#6-conversion-tracking--gtm-integration) • [Reporting](#8-weekly-reporting-dashboard-template)
+
+</div>
 
 ---
 
-## 🎯 Purpose & Business Goals
+## 📋 Table of Contents
 
-The goal of this PPC program is to acquire clients for our **1-on-1 Online Fitness Coaching program**.
-*   **Target Audience:** Busy professionals (ages 25-50) struggling with weight loss, strength training, or diet planning who are willing to pay a premium for personalized accountability.
-*   **Core Offer:** 1-on-1 customized workout routine, macro-based nutrition coaching, weekly video check-ins, and direct access to a dedicated coach.
-*   **Funnel Path:** Google Search Ad $\rightarrow$ Ad Group Specific Landing Page $\rightarrow$ Lead Form submission (free strategy call) $\rightarrow$ Close on phone call.
-
----
-
-## 💰 Campaign Overview & Budget Allocation
-
-Our monthly budget is set at **$6,000/month ($200/day)**. We distribute the budget across four core campaigns to balance brand protection, high-intent service searches, competitor targeting, and audience retargeting:
-
-| Campaign Name | Focus & Targeting Type | Daily Budget | Monthly Budget | Budget % |
-| :--- | :--- | :---: | :---: | :---: |
-| **01. Brand Protection** | Brand terms (e.g., "FitLife Coaching") | $20/day | $600/month | 10% |
-| **02. Competitor Conquest** | Target competitor brands (e.g., "CoPilot", "Future Fit") | $40/day | $1,200/month | 20% |
-| **03. Service & Intent** | High-intent terms (e.g., "hire online fitness coach") | $110/day | $3,300/month | 55% |
-| **04. Remarketing** | Past website visitors & lead form dropouts | $30/day | $900/month | 15% |
-
----
-
-## 📈 Target PPC Metrics (KPIs)
-
-*   **Target ROAS (Return on Ad Spend):** **3.0x** (calculated on a 3-month Customer Value baseline).
-*   **Target CPA (Cost Per Acquisition / Lead):** **$50.00** per booking strategy call.
-*   **Target Customer CAC (Customer Acquisition Cost):** **$150.00** (assuming a 33% close rate from call to client).
-*   **Click-Through Rate (CTR):** **>5.0%** (search campaign average).
-*   **Quality Score Target:** **>7/10** across all core service keywords.
+1. [Campaign Overview](#1-campaign-overview)
+2. [Target Audience & Buyer Persona](#2-target-audience--buyer-persona)
+3. [Campaign Architecture & Hierarchy](#3-campaign-architecture--hierarchy)
+4. [Keyword Research & Matching Strategy](#4-keyword-research--matching-strategy)
+5. [Responsive Search Ads (RSA) Copywriting](#5-responsive-search-ads-rsa-copywriting)
+6. [Conversion Tracking & GTM Integration](#6-conversion-tracking--gtm-integration)
+7. [Landing Page Wireframes & CRO Checklist](#7-landing-page-wireframes--cro-checklist)
+8. [Weekly Reporting Dashboard Template](#8-weekly-reporting-dashboard-template)
+9. [Bidding Strategy & Smart Bidding Roadmap](#9-bidding-strategy--smart-bidding-roadmap)
+10. [RACI Matrix & Campaign Setup Workflows](#10-raci-matrix--campaign-setup-workflows)
+11. [Ad Extensions Setup Guidelines](#11-ad-extensions-setup-guidelines)
+12. [UTM Tagging & GA4 Parameter Configurations](#12-utm-tagging--ga4-parameter-configurations)
+13. [Negative Keywords List](#13-negative-keywords-list)
+14. [Competitor Copywriting Analysis](#14-competitor-copywriting-analysis)
+15. [Verification Plan](#15-verification-plan)
+16. [Project Changelog](#16-project-changelog)
+17. [Contributing Guidelines](#17-contributing-guidelines)
 
 ---
 
-## 📂 Repository Directory Structure
+## 1. Campaign Overview
 
-The repository files are organized logically to guide you from keyword research to campaign setup and weekly reporting:
+This campaign playbook details the paid search acquisition framework designed for a premium **Online Fitness Coaching business**. The service is positioned as a high-ticket subscription offering, priced between **$150 and $300/month** (Customer Lifetime Value estimated at **$1,200** based on a 6-month average retention cycle). 
+
+Paid acquisition is structured around **Google Search Ads** to capture active, high-intent searches. Rather than targeting general queries like "free home workouts," the campaign focuses on keywords like "personal trainer online for busy professionals," capturing leads actively looking to pay for a solution.
+
+### Primary Objectives & Key Performance Indicators (KPIs)
+- **Monthly Budget:** \$6,000 (\$200/day average split).
+- **Target CPA (Cost per Acquisition / Lead):** < \$50 per booked Strategy Call.
+- **Conversion Rate (Landing Page):** > 3.0% (Visitor to Strategy Call Lead).
+- **Target ROAS (Return on Ad Spend):** 3.0x (Calculated against 3-month Customer Value).
+- **Lead Quality Target:** > 75% qualified (income verification and commitment to coaching).
+
+---
+
+## 2. Target Audience & Buyer Persona
+
+To keep ad spend focused and avoid waste, the campaign targets a specific buyer persona:
+
+### Persona: "The Busy Professional" (Corporate Executive / Business Owner)
+- **Demographics:** Age 30–55; Income > \$100k/year; Gender neutral.
+- **Pain Points:** Long work hours, high stress, and limited time for meal prep or planning workouts. They struggle to find consistency with generic apps and value personalized guidance.
+- **Motivation:** Desires a customized fitness and nutrition program that fits into a busy schedule, with 1-on-1 accountability.
+- **Buying Objections:** "I don't have time," "I tried online coaching before and it didn't work," "It's too expensive."
+
+### Target Settings Configuration
+- **Locations:** United States & Canada.
+- **Demographics:** Top 10% to 25% of household incomes.
+- **Ad Schedule:** Monday to Friday, 6:00 AM to 9:00 PM (localized to searcher's time zone), matching when professionals are online.
+- **Devices:** Optimized primarily for Mobile (estimated 70% of clicks) and Desktop (30%).
+
+---
+
+## 3. Campaign Architecture & Hierarchy
+
+To maintain budget control and optimize ad delivery, the account uses a **4-Campaign Structure**:
+
+```
+                                  [ Google Ads Account ]
+                                            │
+         ┌──────────────────────┬───────────┴──────────┬──────────────────────┐
+         ▼                      ▼                      ▼                      ▼
+    01. Brand              02. Competitor         03. Service             04. Remarketing
+  (Daily: $20)           (Daily: $40)           (Daily: $110)           (Daily: $30)
+         │                      │                      │                      │
+ ┌───────┴───────┐      ┌───────┴───────┐      ┌───────┴───────┐      ┌───────┴───────┐
+ ▼               ▼      ▼               ▼      ▼               ▼      ▼               ▼
+Brand Name    Founder  Competitor A  Competitor B Online Coach  Busy Pro   Visits  Email Leads
+(Exact Match) (Phrase) (Phrase Match) (Phrase)  (Exact Match)  (Phrase)  (30 Days) (Remarket)
+```
+
+### Campaign Allocation Table
+
+| Campaign ID | Campaign Name | Focus & Match Type | Daily Budget | Monthly Share | Bid Strategy |
+|---|---|---|---|---|---|
+| **PPC-01** | Brand Protection | Brand terms (Exact/Phrase) | \$20/day | 10% | Target Impression Share |
+| **PPC-02** | Competitor Conquest | Competitor keywords (Phrase) | \$40/day | 20% | Maximize Clicks (Manual Cap) |
+| **PPC-03** | Service & Intent | High-intent search terms (Exact/Phrase) | \$110/day | 55% | Maximize Conversions (Target CPA) |
+| **PPC-04** | Audience Remarketing | Retargeting lists | \$30/day | 15% | Maximize Conversions |
+
+---
+
+## 4. Keyword Research & Matching Strategy
+
+Our keyword list targets users showing clear buying intent. The list is structured into specific ad groups:
+
+### Service Keywords List (`KEYWORDS.csv` mappings)
+
+| Ad Group | Keyword | Match Type | Avg. CPC | Search Volume | Search Intent |
+|---|---|---|---|---|---|
+| **Online Coaching** | `online fitness coach` | Phrase | \$3.50 | 8,100/mo | Searching for online coaches |
+| **Online Coaching** | `personal trainer online` | Exact | \$4.20 | 5,400/mo | Looking for personal trainers |
+| **Busy Professionals**| `fitness coach for busy professionals` | Phrase | \$2.80 | 1,200/mo | Specific, high-value target query |
+| **Busy Professionals**| `weight loss program corporate executives`| Exact | \$4.50 | 800/mo | High-ticket buyer persona query |
+| **Custom Workouts** | `custom meal plan and workout online` | Phrase | \$3.10 | 2,400/mo | Looking for a custom solution |
+
+### Negative Keywords List (`NEGATIVE_KEYWORDS.csv` mappings)
+
+To prevent spending money on low-quality searches, the following negative keywords are configured at the account level:
 
 ```text
-/google-ads-ppc-fitness
-│
-├── README.md                           # Campaign overview, budget, targets, and setup (This file)
-│
-├── /research
-│   ├── KEYWORD_RESEARCH.md             # Keyword methodology, search volume, and CPC analysis
-│   ├── KEYWORDS.csv                    # Database of 30+ fitness keywords mapped to ad groups
-│   ├── NEGATIVE_KEYWORDS.csv          # List of keywords to exclude (free, cheap, jobs, etc.)
-│   └── COMPETITOR_ADS.md               # 5 competitor ads analyzed for hooks and positioning gaps
-│
-├── /campaign-structure
-│   ├── CAMPAIGN_STRUCTURE.md           # Account structure: Campaigns, Ad Groups, and Settings
-│   ├── CAMPAIGN_01_BRAND.md            # Brand protection campaign specifications
-│   ├── CAMPAIGN_02_COMPETITOR.md       # Competitor conquest campaign specifications
-│   ├── CAMPAIGN_03_SERVICE.md          # Core fitness coaching service campaign details
-│   └── CAMPAIGN_04_REMARKETING.md      # Custom audience remarketing specifications
-│
-├── /ad-copy
-│   ├── AD_GROUP_01.md                  # Brand Responsive Search Ads (RSAs) and pinning strategy
-│   ├── AD_GROUP_02.md                  # Competitor Responsive Search Ads (RSAs)
-│   ├── AD_GROUP_03.md                  # Service/Intent Responsive Search Ads (RSAs)
-│   └── COPY_BEST_PRACTICES.md          # Fitness copywriting tips, hooks, and DKI formatting
-│
-├── /extensions
-│   └── AD_EXTENSIONS.md                # Copy for Sitelinks, Callouts, Snippets, and Lead Forms
-│
-├── /landing-pages
-│   ├── LANDING_PAGE_BRIEF.md           # Visual & copy layout briefs for each ad group
-│   └── CRO_CHECKLIST.md                # 20-point conversion rate optimization checklist
-│
-├── /bidding
-│   └── BIDDING_STRATEGY.md             # Bid strategy selection and manual-to-automated plan
-│
-├── /tracking
-│   ├── CONVERSION_TRACKING.md          # Google Tag Manager triggers, tags, and data layers
-│   └── UTM_PARAMETER_GUIDE.md          # UTM naming conventions for tracking in CRM/GA4
-│
-└── /reporting
-    ├── KPI_TARGETS.md                  # Target metrics, definitions, and performance benchmarks
-    └── WEEKLY_REPORT_TEMPLATE.md       # Standardized table and logs for weekly client reporting
+# Excluded search terms
+"free", "cheap", "affordable", "discount", "jobs", "salary", "pdf download"
+"youtube video", "reddit reviews", "app store", "at home workout no equipment"
+"bodybuilding competition coach", "crossfit classes", "gym membership"
 ```
 
 ---
 
-## 👥 Team Ownership Matrix (RACI)
+## 5. Responsive Search Ads (RSA) Copywriting
 
-Clear roles ensure campaigns are launched on time and budget pacing is monitored daily.
+Our ads are structured using headlines and descriptions that address the busy professional's pain points while including clear call-to-actions (CTAs):
 
-| Deliverable / Task | PPC Specialist | Content Writer | Landing Page Dev | Fitness Lead / Director |
-| :--- | :---: | :---: | :---: | :---: |
-| **Keyword Research & Negatives**| **A** / **R** | **I** | **I** | **C** |
-| **Ad Copywriting & Pinned Ads** | **C** | **R** | **I** | **A** |
-| **Landing Page Briefs & CRO**   | **R** | **R** | **R** / **A** | **C** |
-| **Bidding & Budget Pacing**     | **A** / **R** | **I** | **I** | **I** |
-| **Conversion Tag Implement**    | **R** | **I** | **A** / **R** | **I** |
-| **Weekly KPI Reporting**        | **A** / **R** | **I** | **I** | **C** |
+### Ad Group: Busy Professionals
 
----
+#### Headlines (Max 30 characters)
+1. `Online Fitness Coach for Pros` (Pin 1 - Focuses on the core offer)
+2. `Get Fit in 3 Hours a Week` (Pin 2 - Solves the time constraint)
+3. `Custom Workout & Diet Plans`
+4. `Personal Trainer 1-on-1 Online`
+5. `Made for Busy Executives`
+6. `No Extreme Diets. Just Results.`
+7. `Book Your Strategy Call` (Clear call-to-action)
 
-## ⚙️ Campaign Setup & How to Deploy
-
-### Step 1: Initialize Your Google Ads Account
-1.  Set up a new Google Ads account or create a sub-account within your Manager Account (MCC).
-2.  Set billing settings to match your **$6,000/month** budget.
-
-### Step 2: Upload Negative Keyword Lists
-1.  Navigate to **Tools and Settings > Shared Library > Negative Keyword Lists**.
-2.  Create a list named `Global Negatives` and upload all keywords from [NEGATIVE_KEYWORDS.csv](file:///d:/4DK/Projects/Marketting/google-ads-ppc-fitness/research/NEGATIVE_KEYWORDS.csv).
-3.  Apply this negative list to all active search campaigns.
-
-### Step 3: Implement Tracking
-Deploy tracking codes using the instructions in [CONVERSION_TRACKING.md](file:///d:/4DK/Projects/Marketting/google-ads-ppc-fitness/tracking/CONVERSION_TRACKING.md) to ensure conversions map to the right keywords.
-
-### Step 4: Build Landing Pages
-Pass the landing page guidelines in [LANDING_PAGE_BRIEF.md](file:///d:/4DK/Projects/Marketting/google-ads-ppc-fitness/landing-pages/LANDING_PAGE_BRIEF.md) to your designers/developers. Ensure pages pass all points in [CRO_CHECKLIST.md](file:///d:/4DK/Projects/Marketting/google-ads-ppc-fitness/landing-pages/CRO_CHECKLIST.md).
-
-### Step 5: Upload Campaigns, Keywords, and Ad Copy
-1.  Import campaigns using Google Ads Editor or the online interface.
-2.  Input keywords from [KEYWORDS.csv](file:///d:/4DK/Projects/Marketting/google-ads-ppc-fitness/research/KEYWORDS.csv) into respective campaigns.
-3.  Copy and paste the responsive search ads and descriptions from the `/ad-copy` folder.
-4.  Configure sitelink, callout, and lead form extensions as specified in [AD_EXTENSIONS.md](file:///d:/4DK/Projects/Marketting/google-ads-ppc-fitness/extensions/AD_EXTENSIONS.md).
+#### Descriptions (Max 90 characters)
+1. `1-on-1 online coaching tailored for busy executives. Get fit without spending hours in the gym.` (Pin 1)
+2. `Custom meal plans, flexible workouts, and daily accountability. Book your free strategy call now.` (Pin 2)
+3. `No cookie-cutter routines. We build custom fitness structures around your corporate schedule.`
 
 ---
 
-## 🚫 Common Execution Mistakes to Avoid
+## 6. Conversion Tracking & GTM Integration
 
-1.  **Using All Broad Match Keywords:** Launching with pure broad match keywords without a negative list. This wastes budget on irrelevant searches like "free workouts at home". Stick to phrase and exact matches initially.
-2.  **Driving Traffic to the Homepage:** Directing users searching for "custom diet coach" to your homepage instead of a specific landing page. This leads to high bounce rates and low conversion rates.
-3.  **Bypassing Brand Campaign Setup:** Ignoring brand keywords because "we already rank organically". Competitors will bid on your brand name and capture high-intent leads if you do not protect your brand space.
-4.  **No Weekly Budget Cap Check:** Forgetting to set strict campaign daily caps, allowing Google to spend up to 2x the daily budget in a single day during search volume spikes.
+Conversion tracking is set up using **Google Tag Manager** (GTM) to track Strategy Call bookings from the landing page.
+
+### High-Level Event Flow
+
+```
+User Clicks Ad ──► Lands on Page with gclid ──► Clicks "Book Strategy Call"
+  ──► Submits Calendly Widget ──► Calendly Event Triggered ──► GTM Listener
+  ──► Send conversion event to Google Ads + GA4 (Purchase/Lead tag)
+```
+
+### Calendly GTM Custom HTML Script Listener
+
+Add this listener in GTM to catch Calendly bookings and trigger conversion tags:
+
+```html
+<script>
+window.addEventListener('message', function(e) {
+  if (e.data.event && e.data.event.indexOf('calendly') === 0) {
+    if (e.data.event === 'calendly.event_scheduled') {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'calendly_booking_completed',
+        'calendly_event_type': e.data.payload.event_type.uuid
+      });
+    }
+  }
+});
+</script>
+```
+
+### Data Layer Structure
+
+```json
+{
+  "event": "calendly_booking_completed",
+  "calendly_event_type": "ev-busy-pro-strategy",
+  "conversion_value": 150.00,
+  "currency": "USD"
+}
+```
 
 ---
 
-## 📅 Expected Outcomes & Optimization Timeline
+## 7. Landing Page Wireframes & CRO Checklist
 
-*   **Days 1 - 3 (Setup):** Landing pages deployed, GTM conversion tags tested, campaigns uploaded in paused state.
-*   **Day 4 (Launch):** Launch search campaigns with Manual CPC bidding to control keyword click prices.
-*   **Weeks 1 - 2 (Pacing):** Monitor search terms daily, add new negative keywords, and adjust keyword bids to maintain average ad position 1-3.
-*   **Weeks 3 - 4 (Optimization):** Analyze ad copy performance, pause low-performing headlines/descriptions, and compile the first weekly reports.
-*   **Day 30+ (Smart Bidding):** Once we reach 30+ conversions in a campaign, transition from Manual CPC to Target CPA or Maximize Conversions bidding.
-*   *Expected Outcomes:* Lead cost (CPA) stabilized at **<$50/lead**, Conversion Rate **>3%**, and ROAS exceeding **3.0x** by Month 3.
-#   4 d k - t h a n g a s e l v i - d i g i t a l m a r k e t i n g - i n t e r n s h i p  
- 
+Our landing page is optimized for conversions, ensuring that users arriving from search ads find a clear path to book a call:
+
+### Landing Page Layout Blueprints
+
+```text
+┌────────────────────────────────────────────────────────┐
+│ [Logo]                              [Call-to-Action]   │
+├────────────────────────────────────────────────────────┤
+│                                                        │
+│  HEADLINE: Get Fit Without Giving Up Your Career       │
+│  SUB-HEADLINE: 1-on-1 Fitness & Nutrition for Pros     │
+│                                                        │
+│  [Book Free Strategy Call Button]                      │
+│                                                        │
+│  [Hero Image: Fit professional in executive attire]    │
+│                                                        │
+├────────────────────────────────────────────────────────┤
+│  SOCIAL PROOF: As Seen on Forbes, Bloomberg, etc.      │
+├────────────────────────────────────────────────────────┤
+│                                                        │
+│  HOW IT WORKS:                                         │
+│  1. Custom Assessment -> 2. Flexible Plan -> 3. Results│
+│                                                        │
+├────────────────────────────────────────────────────────┤
+│  TESTIMONIALS: Before & After slider with details      │
+├────────────────────────────────────────────────────────┤
+│                                                        │
+│  BOOKING ZONE: Inline Calendly scheduler widget        │
+│                                                        │
+└────────────────────────────────────────────────────────┘
+```
+
+### 20-Point Conversion Rate Optimization (CRO) Checklist
+- [x] **Clear Above-the-Fold Value:** Headline explicitly mentions "Fitness for Professionals."
+- [x] **Primary Call-to-Action:** High-contrast CTA button (e.g. "Book Strategy Call") placed top right and in the hero section.
+- [x] **Fast Mobile Loading:** Page load times under **2.5 seconds** to prevent drop-offs.
+- [x] **Social Proof:** Client transformation pictures and testimonials placed close to the booking form.
+- [x] **Minimized Form Fields:** Intake questions limited to name, email, phone number, and goal select.
+- [x] **Single-Topic Focus:** All navigation links removed to keep visitors focused on booking a call.
+
+---
+
+## 8. Weekly Reporting Dashboard Template
+
+This report is delivered to the client every Monday morning, comparing performance metrics week-over-week (WoW):
+
+```text
+================================================================================
+                    WEEKLY PPC PERFORMANCE DASHBOARD REPORT
+================================================================================
+Client: Online Fitness Coaching Co.
+Reporting Period: May 24, 2026 - May 30, 2026
+--------------------------------------------------------------------------------
+
+1. EXECUTIVE SUMMARY METRICS
+- Total Spend: $1,420.50 (Target: $1,400.00 | Variance: +1.4%)
+- Impressions: 28,410
+- Clicks: 1,562 (CTR: 5.50% | Target: >5.00%)
+- Avg. CPC: $0.91 (Target: <$1.20 | Variance: -24.1%)
+- Conversions (Strategy Calls Booked): 32 (Target: 28 | Variance: +14.2%)
+- Conversion Rate: 2.05% (Target: >2.00%)
+- Cost per Conversion (CPA): $44.39 (Target: <$50.00 | Variance: -11.2%)
+- ROAS (On 3-Mo LTV): 3.38x (Target: >3.00x)
+
+2. CAMPAIGN BREAKDOWNS
+--------------------------------------------------------------------------------
+Campaign Name        | Spend      | Clicks | Conversions | CPA      | ROAS
+--------------------------------------------------------------------------------
+01. Brand Protection | $145.00    | 320    | 8           | $18.12   | 8.27x
+02. Competitor       | $285.50    | 242    | 3           | $95.16   | 1.57x
+03. Service & Intent | $795.00    | 840    | 18          | $44.16   | 3.40x
+04. Remarketing      | $195.00    | 160    | 3           | $65.00   | 2.30x
+--------------------------------------------------------------------------------
+
+3. TOP KEYWORDS BY CONVERSION PERFORMANCE
+- "fitness coach online busy professionals" (Phrase) -> 12 Conversions | $38.50 CPA
+- "personal trainer online corporate" (Exact) -> 8 Conversions | $42.00 CPA
+- "[brand name coaching]" (Exact) -> 6 Conversions | $12.30 CPA
+
+4. NEXT WEEK'S OPTIMIZATION PRIORITIES
+- Action 1: Add negative keywords discovered from competitor search terms queries.
+- Action 2: A/B test a new landing page headline targeting time efficiency.
+- Action 3: Gradually raise the budget for the high-converting Service campaign.
+================================================================================
+```
+
+---
+
+## 9. Bidding Strategy & Smart Bidding Roadmap
+
+The campaign uses a structured bidding plan, transitioning from manual control to Google's smart bidding algorithms over time:
+
+```
+                  ┌──────────────────────┐
+                  │ Phase 1: Launch      │
+                  │ Manual CPC bidding   │
+                  └──────────┬───────────┘
+                             │
+                             │ Get 30+ conversions in 30 days
+                             ▼
+                  ┌──────────────────────┐
+                  │ Phase 2: Growth      │
+                  │ Maximize Conversions │
+                  └──────────┬───────────┘
+                             │
+                             │ Stabilize booking numbers
+                             ▼
+                  ┌──────────────────────┐
+                  │ Phase 3: Maturity    │
+                  │ Target CPA bidding   │
+                  └──────────────────────┘
+```
+
+### Bidding Stages Outline
+- **Phase 1 (Launch - Days 1–30):** Use **Manual CPC Bidding** with Enhanced CPC enabled. This allows us to gather initial click data and find converting search terms while keeping budgets tight.
+- **Phase 2 (Growth - Month 2):** Transition to **Maximize Conversions** once campaigns reach a baseline of 30+ conversions in 30 days, allowing Google's algorithms to maximize lead volume.
+- **Phase 3 (Maturity - Month 3+):** Set a **Target CPA** once conversion rates stabilize. Set the cap at \$45 per lead to maintain a profitable lead cost.
+
+---
+
+## 10. RACI Matrix & Campaign Setup Workflows
+
+To coordinate campaign launches, we use a **RACI Matrix** to define roles for each task:
+
+| Task / Deliverable | PPC Specialist | Copywriter | Web Developer | Marketing Director |
+|---|---|---|---|---|
+| Keyword List | **Accountable/Responsible**| Consulted | Informed | Approved |
+| Ad Copyblueprints | Consulted | **Responsible** | Informed | Accountable/Approved |
+| Landing Page Dev | Informed | Consulted | **Responsible** | Accountable/Approved |
+| GTM Tag Deployments | **Responsible** | Informed | Consulted | Accountable |
+| Weekly Reports | **Accountable/Responsible**| Informed | Informed | Consulted |
+
+---
+
+## 11. Ad Extensions Setup Guidelines
+
+Configure ad extensions to increase visibility and improve click-through rates (CTR):
+
+- **Sitelink Extensions:**
+  - Link 1: `Free Strategy Call` (Directs to the booking form scheduler).
+  - Link 2: `Our Success Stories` (Links to before/after case studies).
+  - Link 3: `1-on-1 Custom Pricing` (Links to pricing packages).
+  - Link 4: `Meet the Coaches` (Links to coach profiles).
+- **Callout Extensions:** Include key selling points: `24/7 Support`, `Custom Nutrition Plans`, `No Extreme Diets`, `Accountability Calls`.
+- **Structured Snippets:** Highlight features: `Types: Custom Workouts, Diet Planning, Daily Text Support`.
+
+---
+
+## 12. UTM Tagging & GA4 Parameter Configurations
+
+To track traffic source details accurately inside **Google Analytics 4 (GA4)** and CRM platforms, all campaign URLs must use our standard UTM structure:
+
+```text
+https://coach-fitness-pro.com/landing?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_term={keyword}
+```
+
+### Mapped Parameters Table
+
+| Parameter | Assigned Value | Description |
+|---|---|---|
+| `utm_source` | `google` | Identifies search engines traffic |
+| `utm_medium` | `cpc` | Identifies paid click actions |
+| `utm_campaign` | `{campaignid}` | Dynamically inserts campaign IDs |
+| `utm_adgroup` | `{adgroupid}` | Dynamically inserts ad group IDs |
+| `utm_term` | `{keyword}` | Dynamically inserts searched keywords |
+
+---
+
+## 13. Negative Keywords List
+
+A sample list from `research/NEGATIVE_KEYWORDS.csv` highlights terms we exclude to prevent paying for irrelevant clicks:
+
+```csv
+Keyword,Type,Exclusion Reason
+free,Phrase,Avoid searches seeking free coaching services
+cheap,Phrase,Exclude users looking for cheap workout apps
+salary,Phrase,Exclude job seekers and salary research
+bodybuilding,Phrase,Exclude contest prep training queries
+crossfit,Phrase,Exclude users seeking local CrossFit gym classes
+anytime fitness,Phrase,Exclude physical gym brand searches
+weight loss pills,Exact,Exclude searches for weight loss supplements
+```
+
+---
+
+## 14. Competitor Copywriting Analysis
+
+We analyzed five major online fitness competitors to identify common messaging strategies and find angles to differentiate our copy:
+
+- **Competitor A (High-volume apps):** Focuses on low cost and automated workouts.
+  - *Differentiator:* We emphasize personal accountability and fully customized plans, matching busy professionals' expectations.
+- **Competitor B (Local gym chains):** Focuses on physical locations.
+  - *Differentiator:* We highlight the flexibility of online coaching, allowing professionals to work out on their own schedule.
+- **Competitor C (Niche transformation coaches):** Focuses on extreme diets and high-intensity plans.
+  - *Differentiator:* We position our coaching as a sustainable lifestyle change that fits into a busy corporate schedule.
+
+---
+
+## 15. Verification Plan
+
+### Technical Ad Checks
+1. Verify GTM tags fire correctly by running the GTM Preview tool and completing a test booking.
+2. Confirm the Calendly listener captures scheduling events and pushes variables to the `dataLayer`.
+3. Check UTM parameters in GA4 DebugView to verify source metrics are logged correctly.
+
+### Landing Page Audits
+1. Open the landing page on mobile and desktop viewports to check responsive scaling.
+2. Run PageSpeed audits to verify mobile load times remain under **2.5 seconds**.
+
+---
+
+## 16. Project Changelog
+
+### v1.0.0
+- Launch of the initial project playbook.
+- Account-level campaign structures and budget allocations.
+- Responsive Search Ads (RSA) copywriting blueprints.
+- Keyword and negative keyword spreadsheets setup.
+- Google Tag Manager conversion tracking integration guide.
+
+---
+
+## 17. Contributing Guidelines
+
+1. Proposed keyword additions must include average CPC metrics and search volume data.
+2. Ad copy changes should be tested using A/B splits on landing pages before deploying account-wide.
+
+---
+#   4 d k - t h a n g a s e l v i - d i g i t a l m a r k e t i n g - i n t e r n s h i p
